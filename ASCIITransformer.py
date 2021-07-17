@@ -59,6 +59,12 @@ class ASCIITransformer:
         img.save(fname)
 
     def transform_to_video(self):
+        print("Options")
+        print("q - quit")
+        print("= - incerase height")
+        print("- - decerase height")
+        print("] - increase font size")
+        print("[ - decrease font size")
         vid = cv2.VideoCapture(0)  # Cam feed
         while (True):
             ret, frame = vid.read()
