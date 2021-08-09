@@ -75,7 +75,6 @@ class ASCIITransformer:
             key = cv2.waitKey(1)
             if key == ord('q'):
                 break
-
             elif key == ord('d'):
                 self.__reverse_shading()
             elif key == ord('='):
