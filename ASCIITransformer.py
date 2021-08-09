@@ -31,7 +31,6 @@ class ASCIITransformer:
                 ascii_arr[i, j] = self.__to_ascii(scaled_img[i, j])
 
         self.ascii_arr_shape = ascii_arr.shape
-
         lines = '\n'.join([''.join([''.join(char) for char in row])
                           for row in ascii_arr])
         return lines
