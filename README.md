@@ -1,6 +1,6 @@
-## Webam feed to Ascii art generator
+# Webam feed to Ascii art generator
 
-Another fun little project. Nothing big
+![image](https://user-images.githubusercontent.com/51152254/168483896-b87a2f7f-69f5-4906-a374-5d3f8fb4effb.png)
 
 ## Usage
 
